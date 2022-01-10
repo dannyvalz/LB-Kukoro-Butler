@@ -1,0 +1,6 @@
+*.lbe	binary
+.gitattributes export-ignore
+*LICENSE.txt export-ignore
+*license.txt export-ignore
+*LICENSE.html export-ignore
+*LICENSE export-ignore
