@@ -4,6 +4,7 @@ Retrieves player name, stats and skills in Kukoro dungeon mode, and allows the s
 
 ## Twitch commands
 * `!players`: List the name, stats and skills of all players who have done `!getinfo`
+* `!player @player`: List the name, stats and skills of an individual player who has done `!getinfo`
 * `!whocankill <enemy>`: Lists all players who have that enemy mentioned in their skills
 * `!kill @<player>`: Removes that player from the list of players and removes their skills
 
@@ -24,6 +25,12 @@ Skills: [100% chance of critical against enemy cyclops if you are the last playe
 
 @mrsvalentinexx - L: 11, C: 11%, D : 11%
 Skills: [level +1 all your team when you defeat enemy minotaur] & [x0.5 damage against enemy minotaur]
+```
+
+`!player @dannyvalz`
+```
+@dannyvalz - L: 13, C: 17%, D : 13%
+Skills: [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
 ```
 
 `!whocankill minotaur`
