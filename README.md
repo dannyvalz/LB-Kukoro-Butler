@@ -5,7 +5,7 @@ Retrieves player name, stats and skills in Kukoro dungeon mode, and allows the s
 ## Twitch commands
 * `!players`: List the name, stats and skills of all players who have done `!getinfo`
 * `!player @player`: List the name, stats and skills of an individual player who has done `!getinfo`
-* `!whocankill <enemy>`: Lists all players who have that enemy mentioned in their skills
+* `!whocankill <enemy>`: Lists all players who have that enemy mentioned in their skills. Also works with `!whocankill boss` and `!whocankill any`.
 * `!kill @<player>`: Removes that player from the list of players and removes their skills
 
 ## Example usage via Twitch chat
@@ -21,6 +21,10 @@ Retrieves player name, stats and skills in Kukoro dungeon mode, and allows the s
 @justspike (L: 15, C: 16%, D : 11%): [100% chance of critical against enemy cyclops if you are the last player alive] & [kill enemy cyclops with one hit if you have 3hp or less]
 
 @mrsvalentinexx (L: 11, C: 11%, D : 11%): [level +1 all your team when you defeat enemy minotaur] & [x0.5 damage against enemy minotaur]
+
+@pizza_guy (L: 16, C: 11%, D : 14%): [Dying by any enemy will reroll your teammates abilities] & [kill enemy cyclops with one hit if you have 3hp or less]
+
+@skaggbragi (L: 20, C: 14%, D : 12%): [+1% dodge chance to the whole team after dodging enemy dragon attacks] & [Crit. hits against any boss will heal you]
 ```
 
 `!player @dannyvalz`
@@ -46,6 +50,16 @@ o7 @rd_reckless! Thank you for your service.
 ```
 @mrsvalentinexx - level +1 all your team when you defeat enemy minotaur
 @mrsvalentinexx - x0.5 damage against enemy minotaur
+```
+
+`!whocankill boss`
+```
+@skaggbragi - crit. hits against any boss will heal you
+```
+
+`!whocankill any`
+```
+@pizza_guy - dying by any enemy will reroll your teammates abilities
 ```
 </details>
 
