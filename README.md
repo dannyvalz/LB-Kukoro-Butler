@@ -14,23 +14,18 @@ Retrieves player name, stats and skills in Kukoro dungeon mode, and allows the s
 
 `!players`
 ```
-@dannyvalz - L: 13, C: 17%, D : 13%
-Skills: [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
+@dannyvalz (L: 13, C: 17%, D : 13%): [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
 
-@rd_reckless - L: 20, C: 13%, D : 10%
-Skills: [level +2 all your team if you die by enemy minotaur] & [x1.5 damage against enemy minotaur]
+@rd_reckless (L: 20, C: 13%, D : 10%): [level +2 all your team if you die by enemy minotaur] & [x1.5 damage against enemy minotaur]
 
-@justspike - L: 15, C: 16%, D : 11%
-Skills: [100% chance of critical against enemy cyclops if you are the last player alive] & [kill enemy cyclops with one hit if you have 3hp or less]
+@justspike (L: 15, C: 16%, D : 11%): [100% chance of critical against enemy cyclops if you are the last player alive] & [kill enemy cyclops with one hit if you have 3hp or less]
 
-@mrsvalentinexx - L: 11, C: 11%, D : 11%
-Skills: [level +1 all your team when you defeat enemy minotaur] & [x0.5 damage against enemy minotaur]
+@mrsvalentinexx (L: 11, C: 11%, D : 11%): [level +1 all your team when you defeat enemy minotaur] & [x0.5 damage against enemy minotaur]
 ```
 
 `!player @dannyvalz`
 ```
-@dannyvalz - L: 13, C: 17%, D : 13%
-Skills: [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
+@dannyvalz (L: 13, C: 17%, D : 13%): [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
 ```
 
 `!whocankill minotaur`
