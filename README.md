@@ -32,6 +32,12 @@ Retrieves player name, stats and skills in Kukoro dungeon mode, and allows the s
 @dannyvalz (L: 13, C: 17%, D : 13%): [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
 ```
 
+`!player @dannyvalz`
+```
+@dannyvalz - L: 13, C: 17%, D : 13%
+Skills: [come back critical hits to enemy troll] & [damage x3 against enemy troll of identical level as you]
+```
+
 `!whocankill minotaur`
 ```
 @rd_reckless - level +2 all your team if you die by enemy minotaur
@@ -65,7 +71,7 @@ o7 @rd_reckless! Thank you for your service.
 
 
 ## How to install
-1. Download the .lbe extension file from **[Releases](/releases)** section (please do not right click and save) 
+1. Download the .lbe extension file from **[Releases](../../releases/latest/)** section (please do not right click and save) 
 2. Click on Install Extension in your LioranBoard Receiver
 3. Select the extension file you downloaded 
 4. Select your default Transmitter you are using. Make 100% sure it is the correct one. 
