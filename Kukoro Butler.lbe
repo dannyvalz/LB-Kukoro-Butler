@@ -23,11 +23,15 @@ case "KukoroButler":{
 function LBKukoroButler(targetVariable, skillString){
 	let foundEnemyOrBoss = -1;
 
-	const regex = /(?:enemy (\w+)|.*(boss).*)/; // Could be improved to use a single capturing group
+	const regex = /(?:(any) enemy|enemy (\w+)|.*(boss).*)/; // Could be improved to use a single capturing group
 	const match = skillString.match(regex);
 
 	if (match) {
-		foundEnemyOrBoss = (match[2]) ? match[2] : match[1]; // Return "boss" or enemy name
+		if (match[1]) {
+			foundEnemyOrBoss = "any";
+		} else {
+			foundEnemyOrBoss = (match[3]) ? match[3] : match[2]; // Return "boss" or enemy name
+		}
 	}
 
 	lioranboardclient.send(`{"type":"MESSAGE","topic":"SetValue","valuename":"${targetVariable}","value":"${foundEnemyOrBoss}","real":false}`);
